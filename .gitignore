@@ -1,0 +1,135 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Visual Studio files
+[Dd]ebug/
+[Dd]ebug.DLL/
+[R]elease/
+[Rr]elease.DLL/
+*.user
+*.aps
+.vs
+
+# Clangd LSP
+.cache
+compile_commands.json
+
+# Build folder
+[Bb]uild/
+[Bb]uild-*/
+cmake-build-*/
+
+# CMake specific files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+CPackConfig.cmake
+CPackSourceConfig.cmake
+_deps/
+*.cmake
+!CMakeLists.txt
+!cmake/
+
+# Makefiles generados
+Makefile
+*.make
+
+# Android files
+*apk*
+android.*
+
+# WebAssembly release files
+*.data
+*.wasm
+*.html
+*.js
+!src/minshell.html
+!src/shell.html
+
+# Archivos de sistema (macOS, Windows, Linux)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# IDEs adicionales
+.vscode/
+*.code-workspace
+.idea/
+*.cbp
+*.depend
+*.layout
+
+# Ejecutables del proyecto
+raylib-game-template
+raylib_game_template
+
+# Logs y archivos temporales
+*.log
+log/
+logs/
+
+# Screenshots (excepto el de ejemplo)
+screenshots/*.png
+!screenshots/screenshot000.png
